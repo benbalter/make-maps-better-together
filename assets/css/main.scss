@@ -1,0 +1,85 @@
+@import 'bootstrap.min.css';
+@import "pygments.css";
+@import "fontawesome";
+@import 'impress';
+@import "variables";
+@import "branding";
+
+/* Global */
+body {
+  text-align: center;
+}
+
+h1 { 
+  font-size: 75px;
+  line-height: 90px;
+}
+
+h2 { 
+  font-size: 50px;
+  line-height: 60px;
+}
+
+ul {
+  list-style: none; }
+
+li {
+  line-height: 1.1em;
+  padding-bottom: 20px; }
+
+.blue {
+  color: #4183c4; }
+
+.step {
+  font-size: 40px;
+  line-height: 1em; }
+
+p {
+  margin-bottom: 25px; }
+
+code {
+  font-size: 35px;
+  color: #4183c4;
+  padding: 0 4px 2px 4px;
+  line-height: 1.5em; }
+
+#feedlyMiniIcon {
+  display: none !important; }
+
+/* Geeky lists */
+ol {
+  counter-reset: item -1;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none; }
+
+ol li {
+  text-align: left; }
+
+ol li:before {
+  content: counter(item) ". ";
+  counter-increment: item; }
+
+#roadmap ol {
+  width: 500px; }
+
+/* Code */
+.highlight {
+  text-align: left;
+  text-shadow: none; }
+
+.highlight code {
+  font-size: 1.7em; }
+
+/* Slide Specific */
+.contact-info {
+  margin-top: 100px; 
+}
+
+.contact-info a {
+  color: $brand-lightGrey;
+}
+
+.small { text-align: right; font-size: 15px;  color: $brand-lightGrey; }
+
+#intro h1 { font-size: 70px; }
