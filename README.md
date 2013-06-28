@@ -1,5 +1,7 @@
 # Make Maps Better Together
 
+## [View the presentation](http://ben.balter.com/make-maps-better-together/)
+
 ### Requirements
 
 * Jekyll (ruby)
