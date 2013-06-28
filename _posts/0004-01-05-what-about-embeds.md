@@ -7,5 +7,5 @@ title: What about Embeds?
 <script src="http://embed.github.com/view/geojson/benbalter/dc-maps/master/zip-codes.geojson"></script>
 {% endhighlight %}
 
-![DC Zip Codes](images/zip-codes.png)
+<script src="http://embed.github.com/view/geojson/benbalter/dc-maps/master/zip-codes.geojson">&nbsp;</script>
 
