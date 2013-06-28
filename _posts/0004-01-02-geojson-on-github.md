@@ -1,4 +1,6 @@
 ---
+title: GeoJSON on GitHub
+
 ---
 
 * `.geojson`, `.topojson`, `.json` files
