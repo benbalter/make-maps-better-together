@@ -6,4 +6,4 @@
 * SOAP &rarr; REST
 * SAML &rarr; OAUTH
 * Adobe PDF, Microsoft Word &rarr; Markdown
-* ESRI Shapefile, KML&rarr;GeoJSON, TopoJSON
+* ESRI Shapefile, Google KML &rarr;<br />GeoJSON, TopoJSON
