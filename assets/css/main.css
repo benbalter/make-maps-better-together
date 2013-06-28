@@ -1349,8 +1349,11 @@ p {
 code {
   font-size: 35px;
   color: #4183c4;
-  padding: 0 4px 2px 4px;
   line-height: 1.5em; }
+
+pre code {
+  padding: 5px !important;
+  background: whitesmoke; }
 
 #feedlyMiniIcon {
   display: none !important; }
