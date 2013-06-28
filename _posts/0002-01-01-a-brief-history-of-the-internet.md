@@ -1,9 +1,9 @@
 ---
 ---
 
-* Everything / HTTP
-* XML / JSON
-* SOAP / REST
-* SAML / OAUTH
-* Adobe PDF, Microsoft Word / Markdown
-* ESRI Shapefile, KML / GeoJSON, TopoJSON
+* Everything &rarr; HTTP
+* XML &rarr; JSON
+* SOAP &rarr; REST
+* SAML &rarr; OAUTH
+* Adobe PDF, Microsoft Word &rarr; Markdown
+* ESRI Shapefile, KML&rarr;GeoJSON, TopoJSON
