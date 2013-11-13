@@ -1,7 +1,8 @@
 ---
-title: But wait, there's more
-
+hide_title: true
 ---
+
+# But wait, **there's more**
 
 * Treat data as code
 * Version control baked in

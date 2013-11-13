@@ -1,2 +1,17 @@
-exclude: ["script"]
+title: "Make maps better, **together**."
+description: "Collaborative mapping the GitHub Way™"
+
+exclude:
+  - script
+  - ".gitignore"
+  - Gemfile
+  - Gemfile.lock
+  - readme.md
+  - node_modules
+  - ".sass-cache"
+  - "package.json"
+  - "*.scss"
+  - "*.coffee"
 pygments: true
+markdown: kramdown
+excerpt_separator: ""
