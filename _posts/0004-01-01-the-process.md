@@ -3,4 +3,3 @@
 
 1. Commit a `.geojson` file to GitHub
 2. ???&nbsp;
-3. Profit

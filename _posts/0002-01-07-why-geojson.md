@@ -1,6 +1,5 @@
 ---
 title: Why GeoJSON?
-
 ---
 
 * No API to learn
