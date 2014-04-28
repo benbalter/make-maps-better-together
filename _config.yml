@@ -12,6 +12,10 @@ exclude:
   - "package.json"
   - "*.scss"
   - "*.coffee"
+  - "*.less"
+  - src
+  - "bower.json"
+
 pygments: true
 markdown: kramdown
 excerpt_separator: ""

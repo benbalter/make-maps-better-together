@@ -1,0 +1,17 @@
+{
+  "name": "make-maps-better-together",
+  "version": "0.0.1",
+  "homepage": "https://github.com/benbalter/make-maps-better-together",
+  "authors": [
+    "Ben Balter <ben.balter@github.com>"
+  ],
+  "description": "Collaborative mapping and the open source way",
+  "main": "script/server",
+  "license": "MIT",
+  "dependencies": {
+    "impress.js": "~0.5.3",
+    "emojify.js": "*",
+    "fontawesome": "*",
+    "jquery": "*"
+  }
+}
