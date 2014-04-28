@@ -33,7 +33,7 @@
                 {% if page.notes %}
                   <div class="notes">
 {% for note in page.notes %}
-* {{ note | markdownify | strip_html }}
+* {{ note }}
 {% endfor %}
                   </div>
                 {% endif %}
@@ -44,6 +44,8 @@
 
       <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
       <script src="assets/vendor/impress.js/js/impress.js"></script>
+      <script type="text/javascript" src="http://localhost:9292/faye/client.js"></script>
+      <script type="text/javascript" src="assets/js/sync.js"></script>
       <script>if (window.location.hash == "#print") {
         window.print()
       } else {

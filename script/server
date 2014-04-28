@@ -8,8 +8,15 @@ bundle exec scss assets/css/main.scss assets/css/main.css
 echo "compiling coffeescript"
 coffee -c assets/js/deck.coffee
 
+
+echo "Staring Faye in the background"
+bundle exec rackup faye.ru &
+
 echo "Starting server."
 caffeinate -diu bundle exec jekyll serve -w
+
+echo "Shutting down faye"
+pkill -f "rackup faye.ru"
 
 echo "Cleaning up..."
 rm -Rf _site
