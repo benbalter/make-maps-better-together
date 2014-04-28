@@ -1,4 +1,4 @@
 ---
 icon: tv
-title: DC Bars without TVs
+title: DC Bars sans TV
 ---

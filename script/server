@@ -6,8 +6,7 @@ echo "compiling CSS"
 bundle exec scss assets/css/main.scss assets/css/main.css
 
 echo "compiling coffeescript"
-coffee -c assets/js/deck.coffee
-
+coffee -c assets/js/*.coffee
 
 echo "Staring Faye in the background"
 bundle exec rackup faye.ru &

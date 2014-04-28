@@ -1,6 +1,6 @@
 @import '../vendor/bootstrap/dist/css/bootstrap.min.css';
-@import '../vendor/impress.js/css/impress-demo.css';
 @import "../vendor/fontawesome/css/font-awesome.css";
+@import "impress";
 @import "octicons";
 @import "variables";
 @import "branding";
@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 50px;
   line-height: 90px;
   font-weight: normal;
 }
@@ -36,7 +36,9 @@ li {
 
 .step {
   font-size: 40px;
-  line-height: 1em; }
+  line-height: 1em;
+  font-family: 'Apex New', 'Helvetica Neue', Helvetica;
+}
 
 p {
   margin-bottom: 25px; }
@@ -126,6 +128,15 @@ table.squished tr td {
 }
 
 div.notes { display: none; }
+
+img {
+  max-width: 100%;
+}
+
+.emoji {
+  width: 75px;
+  height: 75px;
+}
 
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; } /* Black prints faster: h5bp.com/s */
