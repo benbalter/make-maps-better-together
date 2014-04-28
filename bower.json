@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "impress.js": "~0.5.3",
-    "emojify.js": "*",
+    "bootstrap": "*",
     "fontawesome": "*",
     "jquery": "*"
   }

@@ -11,7 +11,6 @@
 
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="assets/css/pygments.css">
-        <link rel="stylesheet" href="assets/css/emojify.css">
 
     </head>
     <body class="impress-not-supported">
@@ -38,26 +37,13 @@
           <div class="notes-display"></div>
         </div> <!-- /container -->
 
-      <script src="assets/js/impress.js"></script>
+      <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+      <script src="assets/vendor/impress.js/js/impress.js"></script>
       <script>if (window.location.hash == "#print") {
         window.print()
       } else {
         impress().init();
       }</script>
       <script src="assets/js/deck.js"></script>
-      <script type="text/javascript" src="assets/js/emojify.js"></script>
-      <script>
-        emojify.setConfig({
-          emoticons_enabled: false,
-          people_enabled: true,
-          nature_enabled: true,
-          objects_enabled: true,
-          places_enabled: true,
-          symbols_enabled: true,
-          only_crawl_id: 'impress'
-        });
-        emojify.run();
-      </script>
-      </script>
     </body>
 </html>

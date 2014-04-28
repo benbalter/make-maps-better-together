@@ -1,10 +1,10 @@
-@import 'bootstrap.min.css';
-@import "pygments.css";
-@import "font-awesome.css";
+@import '../vendor/bootstrap/dist/css/bootstrap.min.css';
+@import '../vendor/impress.js/css/impress-demo.css';
+@import "../vendor/fontawesome/css/font-awesome.css";
 @import "octicons";
-@import 'impress';
 @import "variables";
 @import "branding";
+@import "pygments.css";
 
 /* Global */
 body {
