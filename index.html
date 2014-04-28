@@ -30,11 +30,16 @@
                   <h1 class="title">{% if page.icon %}<i class="icon-{{ page.icon }}">&nbsp;</i>{% endif %}{% if page.octicon %}<span class="mega-octicon octicon-{{ page.octicon }}">&nbsp;</span>{% endif %}{{ page.title | markdownify }}</h1>
                 {% endif %}
                 {{ page.content }}
-                {% if page.notes %}{% for note in page.notes %}<div class="notes">{{ note }}</div>{% endfor %}{% endif %}
+                {% if page.notes %}
+                  <div class="notes">
+{% for note in page.notes %}
+* {{ note }}
+{% endfor %}
+                  </div>
+                {% endif %}
               </div>
             {% endfor %}
           </div>
-          <div class="notes-display"></div>
         </div> <!-- /container -->
 
       <script src="assets/vendor/jquery/dist/jquery.min.js"></script>

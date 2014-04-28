@@ -19,3 +19,7 @@ exclude:
 pygments: true
 markdown: kramdown
 excerpt_separator: ""
+
+#gems:
+#  - jekyll-mentions
+#  - gemoji

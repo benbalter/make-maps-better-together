@@ -125,8 +125,7 @@ table.squished tr td {
   padding: 1%;
 }
 
-.notes { display: none; }
-body.show-notes .notes-display { display: block; }
+div.notes { display: none; }
 
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; } /* Black prints faster: h5bp.com/s */

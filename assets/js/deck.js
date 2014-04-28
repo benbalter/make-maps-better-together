@@ -15,4 +15,13 @@
     return rfs.call(el);
   });
 
+  addEventListener("impress:stepenter", function(e) {
+    var notes;
+    console.clear();
+    notes = $(e.target).find(".notes");
+    if (notes.length) {
+      return console.log(notes.text());
+    }
+  });
+
 }).call(this);

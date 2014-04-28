@@ -857,11 +857,8 @@ table.apex-header tr:first-child td {
 table.squished tr td {
   padding: 1%; }
 
-.notes {
+div.notes {
   display: none; }
-
-body.show-notes .notes-display {
-  display: block; }
 
 @media print {
   * {

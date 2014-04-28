@@ -10,5 +10,7 @@ addEventListener "click", ->
   rfs.call el
 
 # Notes
-#addEventListener "impress:stepenter", ->
-#  $(".notes-display").html $(".present .notes").html()
+addEventListener "impress:stepenter", (e) ->
+  console.clear()
+  notes = $(e.target).find(".notes")
+  console.log notes.text() if notes.length
