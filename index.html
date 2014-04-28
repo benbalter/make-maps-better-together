@@ -33,7 +33,7 @@
                 {% if page.notes %}
                   <div class="notes">
 {% for note in page.notes %}
-* {{ note }}
+* {{ note | markdownify | strip_html }}
 {% endfor %}
                   </div>
                 {% endif %}
