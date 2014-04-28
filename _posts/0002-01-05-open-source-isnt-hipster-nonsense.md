@@ -1,5 +1,5 @@
 ---
-title: Open source isn't just hipster nonsense
+title: Open source isn't just <Br />**hipster nonsense**
 notes:
   - WordPress - ~1/4 sites
   - Apache - ~40%, + nginx - ~20%
@@ -8,4 +8,4 @@ notes:
   - Chrome - ~%40
 ---
 
-![hipster nonsense](images/hipster-nonsense.gif)
+![hipster nonsense](images/hipster-nonsense.gif){: style="height: 500px;" }

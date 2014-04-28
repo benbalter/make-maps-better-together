@@ -1,8 +1,9 @@
 ---
-hide_title: true
-
+title: What about our **License Map**?
+notes:
+  - embeds
+  - API
 ---
 
-## What about our License Map?
 
 ![Stenson's](images/stetsons.png)

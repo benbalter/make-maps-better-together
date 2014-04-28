@@ -1001,9 +1001,7 @@ h1 {
   line-height: 90px;
   font-weight: normal; }
 
-h1.title {
-  font-weight: bold; }
-
+/*h1.title {font-weight: bold; }*/
 h2 {
   font-size: 40px;
   line-height: 60px; }
@@ -1116,6 +1114,12 @@ table.apex-header tr:first-child td {
 
 table.squished tr td {
   padding: 1%; }
+
+.notes {
+  display: none; }
+
+body.show-notes .notes-display {
+  display: block; }
 
 @media print {
   * {

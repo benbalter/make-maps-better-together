@@ -1,5 +1,5 @@
 ---
-title: What's open source?
+title: What's **open source**?
 notes:
   - open collaboration
   - shared tools, shared data

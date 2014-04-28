@@ -1,5 +1,5 @@
 ---
-title: What we learned
+title: What we **learned**
 notes:
   - desktop ≠ internet
   - open > closed

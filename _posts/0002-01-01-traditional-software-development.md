@@ -1,5 +1,5 @@
 ---
-title: Traditional software development
+title: "**Traditional** software development"
 notes:
   - Go to the store and get a floppy disk
   - Released every N years
@@ -8,4 +8,4 @@ notes:
   - Low-level languages, complex problems
 ---
 
-![ye olde computer](images/ye-olde-computer.gif)
+![ye olde computer](images/ye-olde-computer.gif){: style="height: 500px;" }

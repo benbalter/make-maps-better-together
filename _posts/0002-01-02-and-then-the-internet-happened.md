@@ -1,5 +1,5 @@
 ---
-title: ...and then the Internet happened
+title: ...and then **the Internet** happened
 notes:
   - Updates are immediate (and often automatic)
   - Cost to transmit is negligible
@@ -7,4 +7,4 @@ notes:
   - High level languages, standardized stacks, design patterns
 ---
 
-![the internet](images/the-internet.gif)
+![the internet](images/the-internet.gif){: style="height: 500px;" }

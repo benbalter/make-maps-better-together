@@ -17,7 +17,7 @@ h1 {
   font-weight: normal;
 }
 
-h1.title {font-weight: bold; }
+/*h1.title {font-weight: bold; }*/
 
 h2 {
   font-size: 40px;
@@ -124,6 +124,9 @@ table.apex-header tr:first-child td {
 table.squished tr td {
   padding: 1%;
 }
+
+.notes { display: none; }
+body.show-notes .notes-display { display: block; }
 
 @media print {
   * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; } /* Black prints faster: h5bp.com/s */

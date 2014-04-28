@@ -8,3 +8,7 @@ addEventListener "click", ->
   el = document.documentElement
   rfs = el.requestFullScreen or el.webkitRequestFullScreen or el.mozRequestFullScreen
   rfs.call el
+
+# Notes
+#addEventListener "impress:stepenter", ->
+#  $(".notes-display").html $(".present .notes").html()
