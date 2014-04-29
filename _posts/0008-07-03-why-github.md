@@ -1,5 +1,5 @@
 ---
-title: Why GitHub?
+title: Why **GitHub**?
 
 ---
 

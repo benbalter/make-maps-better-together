@@ -27,7 +27,7 @@
 
 
                 {% if page.hide_title %}{% else %}
-                  <h1 class="title">{% if page.icon %}<i class="icon-{{ page.icon }}">&nbsp;</i>{% endif %}{% if page.octicon %}<span class="mega-octicon octicon-{{ page.octicon }}">&nbsp;</span>{% endif %}{{ page.title | markdownify }}</h1>
+                  <h1 class="title">{% if page.icon %}<i class="fa fa-{{ page.icon }}">&nbsp;</i>{% endif %}{% if page.octicon %}<span class="mega-octicon octicon-{{ page.octicon }}">&nbsp;</span>{% endif %}{{ page.title | markdownify }}</h1>
                 {% endif %}
                 {{ page.content }}
                 {% if page.notes %}
