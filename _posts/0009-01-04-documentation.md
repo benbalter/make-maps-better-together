@@ -2,4 +2,4 @@
 title: Software **documentation**
 ---
 
-![docs](images/docs .png)
+![docs](images/docs.png)
